@@ -74,7 +74,7 @@ GitHub Actions has been seamlessly integrated into our workflow, automating the 
 The front-end client serves as an intuitive interface, simplifying the interaction with new or updated stacks. Users can effortlessly manage and monitor the deployment process, providing both technical and non-technical stakeholders with a user-friendly experience.
 
 
-## Project components
+## Project components repos
 
 - [Graphic tool for template visualization](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/FRONT-TEMPLATE-GENERATOR)
 - [API and Template Generator](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/API-TEMPLATE-GENERATOR)
@@ -86,7 +86,7 @@ In order for github actions to successfully perform deployments, repository secr
 ![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/094b2254-e52c-4de0-b218-e58f523ab947)
 
 ## Automatic deploy on stacks upload
-When a template change is uploaded or a new template is uploaded, github actions takes care of reviewing the template, checking the changes and making the deployments.
+When a template change is uploaded or a new template is uploaded, github actions takes care of review the template, check the changes and make the deployments.
 
 ![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/2a19f3d0-9c46-42e5-8ae2-f316cf6e6477)
 
