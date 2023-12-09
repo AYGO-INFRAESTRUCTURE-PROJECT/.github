@@ -105,7 +105,7 @@ Automation not only accelerates deployment but also contributes to cost optimiza
 
 Faster deployments and reduced downtime contribute to a more reliable service for customers. Continuous improvements, facilitated by automated deployments, lead to a better overall customer experience.
 
-## Project components repos
+## Project Component Repositories
 
 - [Graphic tool for template visualization](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/FRONT-TEMPLATE-GENERATOR)
 - [API and Template Generator](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/API-TEMPLATE-GENERATOR)
