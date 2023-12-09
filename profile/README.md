@@ -115,3 +115,17 @@ The front-end client enhances user experience, making it convenient for both tec
 ## Conclusion:  
 
 Our integrated solution represents a leap forward in infrastructure management, combining the strengths of SAM, CDK, GitHub Actions, and a user-friendly front-end. By leveraging these tools synergistically, we have created an ecosystem that not only accelerates deployment but also enhances collaboration, reliability, and the overall user experience in managing AWS stacks. 
+
+## Autores
+[Andres Ricardo Martinez Diaz](https://github.com/Ricar8o)
+[David Alejandro Vasquez Carreño](https://github.com/alejovasquero)
+[Richard Santiago Urrea Garcia](https://github.com/RichardUG)
+
+## Licencia & Derechos de Autor
+**©** Andres Ricardo Martinez Diaz, Ingeniero de Sistemas
+
+**©** David Alejandro Vasquez Carreño, Ingeniero de Sistemas
+
+**©** Richard Santiago Urrea Garcia, Ingeniero de Sistemas
+
+Licencia bajo la [GNU General Public License](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/blob/main/profile/LICENSE).
