@@ -36,8 +36,6 @@ Use the AWS SAM CLI to:
 
 - And more!
 
-
-
 ### CDK  
 
 The [AWS Cloud Development Kit (AWS CDK)](https://docs.aws.amazon.com/cdk/v2/guide/home.html) is an open-source software development framework to define cloud infrastructure in code and provision it through AWS CloudFormation. 
@@ -84,6 +82,7 @@ The front-end client serves as an intuitive interface, simplifying the interacti
 
 ## Setting credentials on stacks deployment
 In order for github actions to successfully perform deployments, repository secrets need to be configured with the credentials of an AWS account.
+![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/094b2254-e52c-4de0-b218-e58f523ab947)
 
 ## Benefits: 
 
