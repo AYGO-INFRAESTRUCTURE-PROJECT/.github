@@ -16,46 +16,6 @@ This results in:
 
 In response to the growing complexity and dynamism of modern IT infrastructures, we have successfully implemented an Infrastructure Automation and Continuous Deployment Prototype Solution using utilizing Amazon Web Services (AWS) Cloud Development Kit (CDK), sam-cli, GitHub Actions, a customized API and a user-friendly front-end client. This cutting-edge solution enables us to efficiently manage infrastructure changes, enhance development workflows, and ensure a seamless and reliable deployment process. 
 
-## Bussiness View:
-
-The project's business view emphasizes a strategic shift towards modern, automated infrastructure deployment. This positions the organization for future growth by fostering agility, reliability, and cost-effectiveness in its technology operations. The value proposition for stakeholders highlights tangible benefits across various facets of the business, making it a strategic investment for sustained success.
-
-### Executive Leadership:
-**Value Proposition: Accelerated Time-to-Market**
-
-By automating infrastructure deployment, the project significantly reduces the time required to bring new features or products to market. This aligns with business goals of staying ahead in a fast-paced industry.
-
-### IT Operations Teams:
-
-**Value Proposition: Improved Operational Efficiency**
-
-The automated deployment process reduces the burden on IT operations, minimizing manual interventions, and mitigating the risk of errors. This results in smoother operations, reduced downtime, and improved resource utilization.
-
-### Development Teams:
-
-**Value Proposition: Enhanced Developer Productivity**
-
-Developers benefit from faster feedback cycles, enabling them to iterate quickly. Automation frees up developers from manual deployment tasks, allowing them to focus on writing code and delivering business value.
-
-### Security Teams:
-
-**Value Proposition: Consistent Security Measures**
-
-The use of SAM, AWS CDK, and GitHub Actions ensures that security measures are consistently applied across environments. Security teams can rely on standardized deployment processes, reducing the risk of misconfigurations.
-
-### Financial Stakeholders:
-
-**Value Proposition: Cost Optimization**
-
-Automation not only accelerates deployment but also contributes to cost optimization. Efficient resource scaling and the ability to handle varying workloads reduce unnecessary resource consumption, aligning with financial goals.
-
-### Customers:
-
-**Value Proposition: Enhanced Service Reliability**
-
-Faster deployments and reduced downtime contribute to a more reliable service for customers. Continuous improvements, facilitated by automated deployments, lead to a better overall customer experience.
-
-
 ## Concepts: 
 
 ### AWS 
@@ -64,24 +24,6 @@ AWS or Amazon Web Services is a cloud service provider, offering storage service
 ### SAM CLI  
 
 The AWS [SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) is a command line tool that you can use with AWS SAM templates and supported third-party integrations to build and run your serverless applications.
-
-Use the AWS SAM CLI to: 
-
-- Quickly initialize a new application project. 
-
-- Build your application for deployment. 
-
-- Perform local debugging and testing. 
-
-- Deploy applications. 
-
-- Configure CI/CD deployment pipelines. 
-
-- Monitor and troubleshoot your application in the cloud. 
-
-- Sync local changes to the cloud as you develop. 
-
-- And more!
 
 ### CDK  
 
@@ -124,6 +66,44 @@ GitHub Actions has been seamlessly integrated into our workflow, automating the 
 
 The front-end client serves as an intuitive interface, simplifying the interaction with new or updated stacks. Users can effortlessly manage and monitor the deployment process, providing both technical and non-technical stakeholders with a user-friendly experience.
 
+## Bussiness View:
+
+The project's business view emphasizes a strategic shift towards modern, automated infrastructure deployment. This positions the organization for future growth by fostering agility, reliability, and cost-effectiveness in its technology operations. The value proposition for stakeholders highlights tangible benefits across various facets of the business, making it a strategic investment for sustained success.
+
+### Executive Leadership:
+**Value Proposition: Accelerated Time-to-Market**
+
+By automating infrastructure deployment, the project significantly reduces the time required to bring new features or products to market. This aligns with business goals of staying ahead in a fast-paced industry.
+
+### IT Operations Teams:
+
+**Value Proposition: Improved Operational Efficiency**
+
+The automated deployment process reduces the burden on IT operations, minimizing manual interventions, and mitigating the risk of errors. This results in smoother operations, reduced downtime, and improved resource utilization.
+
+### Development Teams:
+
+**Value Proposition: Enhanced Developer Productivity**
+
+Developers benefit from faster feedback cycles, enabling them to iterate quickly. Automation frees up developers from manual deployment tasks, allowing them to focus on writing code and delivering business value.
+
+### Security Teams:
+
+**Value Proposition: Consistent Security Measures**
+
+The use of SAM, AWS CDK, and GitHub Actions ensures that security measures are consistently applied across environments. Security teams can rely on standardized deployment processes, reducing the risk of misconfigurations.
+
+### Financial Stakeholders:
+
+**Value Proposition: Cost Optimization**
+
+Automation not only accelerates deployment but also contributes to cost optimization. Efficient resource scaling and the ability to handle varying workloads reduce unnecessary resource consumption, aligning with financial goals.
+
+### Customers:
+
+**Value Proposition: Enhanced Service Reliability**
+
+Faster deployments and reduced downtime contribute to a more reliable service for customers. Continuous improvements, facilitated by automated deployments, lead to a better overall customer experience.
 
 ## Project components repos
 
