@@ -1,6 +1,51 @@
 # Infrastructure Automation and Continuous Deployment Solution
 
-## Problem
+# Table of Contents
+
+1. [Introduction](#introduction)
+   - [Problem Statement](#problem)
+   - [Executive Summary](#executive-summary)
+
+2. [Concepts](#concepts)
+
+3. [Overview](#overview)
+   - [Prototype Architecture](#prototype-architecture)
+
+4. [Key Components](#key-components)
+   - [SAM for Deployment](#sam-for-deployment)
+   - [Custom API for Template Guidance](#custom-api-for-template-guidance)
+   - [AWS CDK for Template Generation](#aws-cdk-for-template-generation)
+   - [GitHub Actions for Continuous Deployment](#github-actions-for-continuous-deployment)
+   - [Front-End Client for User Interaction](#front-end-client-for-user-interaction)
+
+5. [Application View](#application-view)
+
+6. [Business View](#business-view)
+   - [Executive Leadership](#executive-leadership)
+   - [IT Operations Teams](#it-operations-teams)
+   - [Development Teams](#development-teams)
+   - [Security Teams](#security-teams)
+   - [Financial Stakeholders](#financial-stakeholders)
+   - [Customers](#customers)
+
+7. [Project Component Repositories](#project-component-repositories)
+
+8. [Setting Credentials on Stacks Deployment](#setting-credentials-on-stacks-deployment)
+
+9. [Steps](#steps)
+
+10. [Use Cases](#use-cases)
+
+11. [Benefits](#benefits)
+
+12. [Conclusion](#conclusion)
+
+13. [Authors](#authors)
+
+
+## Introduction
+
+### Problem
 We noticed a problem that happens very commonly in small companies or in companies that are making an adoption to the cloud and do not know how to manage their resources correctly.
 This problem consists in the lack of control and standards to manage infrastructure.
 
@@ -12,7 +57,7 @@ This results in:
 - Problems when configuring resources in the cloud
 - Lack of traceability of infrastructure changes within the companies.
 
-## Executive Summary
+### Executive Summary
 
 In response to the growing complexity and dynamism of modern IT infrastructures, we have successfully implemented an Infrastructure Automation and Continuous Deployment Prototype Solution using utilizing Amazon Web Services (AWS) Cloud Development Kit (CDK), sam-cli, GitHub Actions, a customized API and a user-friendly front-end client. This cutting-edge solution enables us to efficiently manage infrastructure changes, enhance development workflows, and ensure a seamless and reliable deployment process. 
 
@@ -70,7 +115,7 @@ The front-end client serves as an intuitive interface, simplifying the interacti
 ![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/d48aecbb-a412-4eec-9648-34ac0d5f96cb)
 
 
-## Bussiness View:
+## Business View:
 
 The project's business view emphasizes a strategic shift towards modern, automated infrastructure deployment. This positions the organization for future growth by fostering agility, reliability, and cost-effectiveness in its technology operations. The value proposition for stakeholders highlights tangible benefits across various facets of the business, making it a strategic investment for sustained success.
 
@@ -191,7 +236,7 @@ The front-end client enhances user experience, making it convenient for both tec
 
 Our integrated solution represents a leap forward in infrastructure management, combining the strengths of SAM, CDK, GitHub Actions, and a user-friendly front-end. By leveraging these tools synergistically, we have created an ecosystem that not only accelerates deployment but also enhances collaboration, reliability, and the overall user experience in managing AWS stacks. 
 
-## Autores
+## Authors
 [Andres Ricardo Martinez Diaz](https://github.com/Ricar8o)
 
 [David Alejandro Vasquez Carreño](https://github.com/alejovasquero)
