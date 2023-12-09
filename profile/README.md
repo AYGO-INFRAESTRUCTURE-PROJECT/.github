@@ -111,7 +111,28 @@ Faster deployments and reduced downtime contribute to a more reliable service fo
 - [API and Template Generator](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/API-TEMPLATE-GENERATOR)
 - [Automatic template deployment](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/GITHUB-ACTIONS-LOAD)
 
+## Setting credentials on stacks deployment
+In order for github actions to successfully perform deployments, repository secrets need to be configured with the credentials of an AWS account in the repository where the stacks are stored.
+
+![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/094b2254-e52c-4de0-b218-e58f523ab947)
+
 ## Steps:
+
+### Deployment:
+1. Configure Automatic template deployment repository:
+   - Fork the repository, (you don´t need the stacks saved in stacks folder)
+   - Push the repository on github
+   - Set credentials of an AWS account
+2. Configure API and Template Generator:
+   - Fork the API and Template Generator repository
+   - Set the Automatic template deployment repository on the `src/main/resources/application.properties`
+   - Deploy this java backend and configure github credentials on the host.
+3. Configure  the graphic tool with react:
+   - Fork the Graphic tool for template visualization repository
+   - Change the API url with the Template Generator API
+   - Deploy this react web server
+
+### Use:
 Once you have deployed the tools and have the the Automatic template deployment repo on github.
 1. Go to graphic interface
 2. Specify the template resources
@@ -120,12 +141,8 @@ Once you have deployed the tools and have the the Automatic template deployment 
 5. Review the workflow on github (You can also view for each stack the CloudFormation event logs on AWS)
 6. Validate the resources have been deployed sucessfully 
 
-## Setting credentials on stacks deployment
-In order for github actions to successfully perform deployments, repository secrets need to be configured with the credentials of an AWS account in the repository where the stacks are stored.
 
-![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/094b2254-e52c-4de0-b218-e58f523ab947)
-
-## Automatic deploy on stacks upload
+## Automatic deploy on stacks upload showcase
 When a template change is uploaded or a new template is uploaded, github actions takes care of review the template, check the changes and make the deployments.
 
 ![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/2a19f3d0-9c46-42e5-8ae2-f316cf6e6477)
