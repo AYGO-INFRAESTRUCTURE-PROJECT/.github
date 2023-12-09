@@ -4,6 +4,18 @@
 
 In response to the growing complexity and dynamism of modern IT infrastructures, we have successfully implemented an Infrastructure Automation and Continuous Deployment Prototype Solution using utilizing Amazon Web Services (AWS) Cloud Development Kit (CDK), sam-cli, GitHub Actions, a customized API and a user-friendly front-end client. This cutting-edge solution enables us to efficiently manage infrastructure changes, enhance development workflows, and ensure a seamless and reliable deployment process. 
 
+## Problem
+We noticed a problem that happens very commonly in small companies or in companies that are making an adoption to the cloud and do not know how to manage their resources correctly.
+This problem consists in the lack of control and standards to manage infrastructure.
+
+This results in:
+
+- Deploying resources manually and prone to errors.
+- Complexity to effectively manage the infrastructure of cloud projects.
+- Lack of standards in infrastructure management
+- Problems when configuring resources in the cloud
+- Lack of traceability of infrastructure changes within the companies.
+
 ### Architecture
 
 ![PROJECT-ARCHITECTURE](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45974699/579d394f-85b5-4166-8694-ca9c7caf36ad)
