@@ -73,6 +73,14 @@ GitHub Actions has been seamlessly integrated into our workflow, automating the 
 
 The front-end client serves as an intuitive interface, simplifying the interaction with new or updated stacks. Users can effortlessly manage and monitor the deployment process, providing both technical and non-technical stakeholders with a user-friendly experience.
 
+
+## Project components
+
+- [Graphic tool for template visualization](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/FRONT-TEMPLATE-GENERATOR)
+- [API and Template Generator](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/API-TEMPLATE-GENERATOR)
+- [Automatic template deployment](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/GITHUB-ACTIONS-LOAD)
+
+
 ## Benefits: 
 
 ### Streamlined Deployment Process: 
