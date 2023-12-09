@@ -81,9 +81,21 @@ The front-end client serves as an intuitive interface, simplifying the interacti
 - [Automatic template deployment](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/GITHUB-ACTIONS-LOAD)
 
 ## Setting credentials on stacks deployment
-In order for github actions to successfully perform deployments, repository secrets need to be configured with the credentials of an AWS account in the repository where the stacks are stored..
+In order for github actions to successfully perform deployments, repository secrets need to be configured with the credentials of an AWS account in the repository where the stacks are stored.
 
 ![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/094b2254-e52c-4de0-b218-e58f523ab947)
+
+## Automatic deploy on stacks upload
+When a template change is uploaded or a new template is uploaded, github actions takes care of reviewing the template, checking the changes and making the deployments.
+
+![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/2a19f3d0-9c46-42e5-8ae2-f316cf6e6477)
+
+![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/b6ddef6f-54a9-41e9-a22e-bdd386a467b5)
+
+And if a stack has no changes it also shows that on the github actions workflow.
+
+![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/0ee08542-1e1f-4fd2-aad0-f0efc28fe7d2)
+
 
 ## Benefits: 
 
