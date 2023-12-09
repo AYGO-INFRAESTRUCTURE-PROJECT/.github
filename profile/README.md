@@ -87,6 +87,17 @@ GitHub Actions automates the continuous deployment pipeline, providing a reliabl
 
 The front-end client enhances user experience, making it convenient for both technical and non-technical users to manage and monitor the deployment of new stacks or updates. This focus on user-centric design promotes usability and accessibility.
 
+
+## Use Cases
+1. Serverless Application Deployment.
+2. Infrastructure as Code (IaC) Updates
+3. Multi-Region Deployments
+4. Custom Resource Management
+5. Infrastructure Updates Based on Pull Requests
+6. Artifact Management
+7. Continuous Learning and Documentation
+
+
 ## Conclusion:  
 
 Our integrated solution represents a leap forward in infrastructure management, combining the strengths of SAM, CDK, GitHub Actions, and a user-friendly front-end. By leveraging these tools synergistically, we have created an ecosystem that not only accelerates deployment but also enhances collaboration, reliability, and the overall user experience in managing AWS stacks. 
