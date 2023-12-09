@@ -115,7 +115,7 @@ The front-end client serves as an intuitive interface, simplifying the interacti
 ![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45279329/d48aecbb-a412-4eec-9648-34ac0d5f96cb)
 
 
-## Business View:
+## Business View
 
 The project's business view emphasizes a strategic shift towards modern, automated infrastructure deployment. This positions the organization for future growth by fostering agility, reliability, and cost-effectiveness in its technology operations. The value proposition for stakeholders highlights tangible benefits across various facets of the business, making it a strategic investment for sustained success.
 
