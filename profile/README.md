@@ -16,7 +16,9 @@ This results in:
 
 In response to the growing complexity and dynamism of modern IT infrastructures, we have successfully implemented an Infrastructure Automation and Continuous Deployment Prototype Solution using utilizing Amazon Web Services (AWS) Cloud Development Kit (CDK), sam-cli, GitHub Actions, a customized API and a user-friendly front-end client. This cutting-edge solution enables us to efficiently manage infrastructure changes, enhance development workflows, and ensure a seamless and reliable deployment process. 
 
-## Value Proposition for Stakeholders:
+## Bussiness View:
+
+The project's business view emphasizes a strategic shift towards modern, automated infrastructure deployment. This positions the organization for future growth by fostering agility, reliability, and cost-effectiveness in its technology operations. The value proposition for stakeholders highlights tangible benefits across various facets of the business, making it a strategic investment for sustained success.
 
 ### Executive Leadership:
 **Value Proposition: Accelerated Time-to-Market**
