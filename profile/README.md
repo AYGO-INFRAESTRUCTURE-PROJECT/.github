@@ -129,6 +129,15 @@ The front-end client serves as an intuitive interface, simplifying the interacti
 - [API and Template Generator](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/API-TEMPLATE-GENERATOR)
 - [Automatic template deployment](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/GITHUB-ACTIONS-LOAD)
 
+## Steps:
+Once you have deployed the tools and have the the Automatic template deployment repo on github.
+1. Go to graphic interface
+2. Specify the template resources
+3. Review the template preview
+4. Send the template
+5. Review the workflow on github (You can also view for each stack the CloudFormation event logs on AWS)
+6. Validate the resources have been deployed sucessfully 
+
 ## Setting credentials on stacks deployment
 In order for github actions to successfully perform deployments, repository secrets need to be configured with the credentials of an AWS account in the repository where the stacks are stored.
 
