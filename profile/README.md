@@ -29,8 +29,12 @@ Use the AWS SAM CLI to:
 
 - Sync local changes to the cloud as you develop. 
 
-- And more! 
+- And more!
 
+
+### Architecture
+
+![image](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45974699/f8f6964f-8553-49c2-b98d-5d646c5e608e)
 
 ### CDK  
 
