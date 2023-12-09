@@ -1,9 +1,5 @@
 # Infrastructure Automation and Continuous Deployment Solution
 
-## Executive Summary
-
-In response to the growing complexity and dynamism of modern IT infrastructures, we have successfully implemented an Infrastructure Automation and Continuous Deployment Prototype Solution using utilizing Amazon Web Services (AWS) Cloud Development Kit (CDK), sam-cli, GitHub Actions, a customized API and a user-friendly front-end client. This cutting-edge solution enables us to efficiently manage infrastructure changes, enhance development workflows, and ensure a seamless and reliable deployment process. 
-
 ## Problem
 We noticed a problem that happens very commonly in small companies or in companies that are making an adoption to the cloud and do not know how to manage their resources correctly.
 This problem consists in the lack of control and standards to manage infrastructure.
@@ -16,9 +12,46 @@ This results in:
 - Problems when configuring resources in the cloud
 - Lack of traceability of infrastructure changes within the companies.
 
-### Architecture
+## Executive Summary
 
-![PROJECT-ARCHITECTURE](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45974699/579d394f-85b5-4166-8694-ca9c7caf36ad)
+In response to the growing complexity and dynamism of modern IT infrastructures, we have successfully implemented an Infrastructure Automation and Continuous Deployment Prototype Solution using utilizing Amazon Web Services (AWS) Cloud Development Kit (CDK), sam-cli, GitHub Actions, a customized API and a user-friendly front-end client. This cutting-edge solution enables us to efficiently manage infrastructure changes, enhance development workflows, and ensure a seamless and reliable deployment process. 
+
+## Value Proposition for Stakeholders:
+
+### Executive Leadership:
+**Value Proposition: Accelerated Time-to-Market**
+
+By automating infrastructure deployment, the project significantly reduces the time required to bring new features or products to market. This aligns with business goals of staying ahead in a fast-paced industry.
+
+### IT Operations Teams:
+
+**Value Proposition: Improved Operational Efficiency**
+
+The automated deployment process reduces the burden on IT operations, minimizing manual interventions, and mitigating the risk of errors. This results in smoother operations, reduced downtime, and improved resource utilization.
+
+### Development Teams:
+
+**Value Proposition: Enhanced Developer Productivity**
+
+Developers benefit from faster feedback cycles, enabling them to iterate quickly. Automation frees up developers from manual deployment tasks, allowing them to focus on writing code and delivering business value.
+
+### Security Teams:
+
+**Value Proposition: Consistent Security Measures**
+
+The use of SAM, AWS CDK, and GitHub Actions ensures that security measures are consistently applied across environments. Security teams can rely on standardized deployment processes, reducing the risk of misconfigurations.
+
+### Financial Stakeholders:
+
+**Value Proposition: Cost Optimization**
+
+Automation not only accelerates deployment but also contributes to cost optimization. Efficient resource scaling and the ability to handle varying workloads reduce unnecessary resource consumption, aligning with financial goals.
+
+### Customers:
+
+**Value Proposition: Enhanced Service Reliability**
+
+Faster deployments and reduced downtime contribute to a more reliable service for customers. Continuous improvements, facilitated by automated deployments, lead to a better overall customer experience.
 
 
 ## Concepts: 
@@ -61,6 +94,10 @@ It offers a high-level object-oriented abstraction to define AWS resources imper
 ## Overview:  
 
 The primary goal of this solution is to streamline the management of AWS infrastructure by leveraging powerful automation tools and cloud-native services. By integrating sam-cli into our deployment pipeline, we have achieved a high degree of automation in provisioning, updating, and scaling cloud resources. Additionally, GitHub Actions serve as the orchestrator for this automation, enabling a seamless integration of infrastructure changes with our codebase.
+
+## Prototype Architecture
+
+![PROJECT-ARCHITECTURE](https://github.com/AYGO-INFRAESTRUCTURE-PROJECT/.github/assets/45974699/579d394f-85b5-4166-8694-ca9c7caf36ad)
 
 
 ## Key Components: 
